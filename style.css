@@ -1,3 +1,7 @@
+body {
+    font-family: font-family: 'Poppins', sans-serif;
+}
+
 .banner {
     position: relative;
     background-image: url(images/donation0.jpg);
@@ -37,4 +41,34 @@
     width: 500px;
     padding-left: 10px;
     border-radius: 5px;
+}
+
+.input {
+    border: hidden;
+}
+
+hr {
+    align-items: center;
+    color: gray;
+    border: 0.5px solid gray;
+}
+
+.donation-plan {
+    display: flex;
+}
+
+.support {
+    margin-right: 50px;
+    padding: 20px 7px 0px 7px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+#support1 {
+    margin-left: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
