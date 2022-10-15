@@ -1,24 +1,60 @@
 body {
     font-family: font-family: 'Poppins', sans-serif;
+
 }
+
+
 
 .banner {
     position: relative;
-    background-image: url(images/donation0.jpg);
+    background-image: url(images/donation7.jpg);
+    opacity: 3;
+
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     font-weight: bold;
 
-    color: white;
+    color: rgb(255, 255, 55);
 
     text-align: center;
     font-size: 30px;
+
+}
+
+.mahatma {
+    text-align: center;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+
+
+.section2 {
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+
+}
+
+
+.banner-txt1 {
+    padding-top: 90px;
+    margin-bottom: 0px;
+
+}
+
+.banner-txt2 {
+    margin-top: 0px;
 }
 
 .quote {
+    background-image: linear-gradient(cyan, pink);
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
 
-    color: aqua;
 }
 
 .btn {
@@ -32,19 +68,52 @@ body {
 
 .flex {
     display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.header1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 38px;
 }
 
 .amnt {
     color: rgb(92, 89, 89);
     background-color: whitesmoke;
     margin-left: 30px;
-    width: 500px;
+    width: 400px;
+    height: 80px;
     padding-left: 10px;
+    padding-top: 15px;
     border-radius: 5px;
+    text-align: center;
+}
+
+.paragraph1 {
+    color: gray;
+    font-size: 17px;
+    padding-left: 48px;
+    padding-right: 30px;
+}
+
+.paragraph2 {
+    color: gray;
+    font-size: 17px;
+    padding-left: 48px;
+    padding-right: 30px;
+}
+
+#div200 {
+    border: 2px solid rgb(233, 21, 21);
+    background-color: rgb(241, 219, 219);
+    color: red;
 }
 
 .input {
     border: hidden;
+    text-align: center;
+    font-size: 17px;
 }
 
 hr {
@@ -57,18 +126,52 @@ hr {
     display: flex;
 }
 
+.section3 {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
 .support {
     margin-right: 50px;
     padding: 20px 7px 0px 7px;
     border-radius: 5px;
     text-align: justify;
+    width: 100%;
 }
 
 #support1 {
     margin-left: 50px;
 }
 
+.section4 {
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    background-color: rgb(247, 242, 185);
+    height: 150px;
+    width: 700px;
+
+    margin: auto;
+}
+
+.inside-subscribe {
+    padding-top: 9%;
+    padding-left: 30%;
+}
+
+.email {
+    background-color: rgb(233, 228, 221);
+    border: none;
+    font-size: 20px;
+}
+
 footer {
     background-color: black;
     color: white;
+    text-align: center;
+
+
 }
