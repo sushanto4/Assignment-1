@@ -1,5 +1,6 @@
 body {
     font-family: font-family: 'Poppins', sans-serif;
+    margin: 0%;
 
 }
 
@@ -66,6 +67,18 @@ body {
     padding: 3px 5px 3px 5px;
 }
 
+.btn3 {
+    text-decoration: none;
+    color: white;
+    border: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(red, purple);
+    padding: 3px 5px 3px 5px;
+    margin-left: 300px;
+    margin-top: px;
+}
+
+
 .flex {
     display: flex;
     margin-top: 30px;
@@ -76,7 +89,9 @@ body {
     margin-top: 60px;
     text-align: center;
     font-size: 38px;
+    padding-left: 50px;
 }
+
 
 .amnt {
     color: rgb(92, 89, 89);
@@ -124,6 +139,7 @@ hr {
 
 .donation-plan {
     display: flex;
+    padding-left: 50px;
 }
 
 .section3 {
@@ -149,6 +165,27 @@ hr {
     margin-bottom: 50px;
 }
 
+.bonus {
+    margin: 110px 200px 100px 200px;
+    background-color: bisque;
+    height: 450px;
+
+
+}
+
+
+form {
+    padding-left: 300px;
+    margin-bottom: 25px;
+
+}
+
+.paragraph3 {
+    text-align: center;
+    padding-left: 100px;
+
+}
+
 .subscribe {
     background-color: rgb(247, 242, 185);
     height: 150px;
@@ -172,6 +209,9 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    height: 150px;
+    width: 100%;
+    padding-top: 30px;
 
 
 }
