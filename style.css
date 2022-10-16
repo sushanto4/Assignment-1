@@ -21,6 +21,8 @@ body {
     text-align: center;
     font-size: 30px;
 
+
+
 }
 
 .mahatma {
@@ -181,8 +183,9 @@ form {
 }
 
 .paragraph3 {
-    text-align: center;
-    padding-left: 100px;
+
+    padding-left: 250px;
+    text-align: justify;
 
 }
 
